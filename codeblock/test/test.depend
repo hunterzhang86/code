@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1371468671 source:e:\code\test\cpp.cpp
+	<iostream>
+	<fstream>
+
+1371469949 source:e:\code\test\main.cpp
+	<iostream>
+	<fstream>
+	"product.hpp"
+
+1371468671 e:\code\test\product.hpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,10 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\S\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\S\bin\Debug\S.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\S\bin\Debug\S.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\S\obj\x86\Debug\S.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\S\obj\x86\Debug\S.pdb
+E:\code\中间件\c#\聊天室\S\S\obj\x86\Debug\S.exe
+E:\code\中间件\c#\聊天室\S\S\obj\x86\Debug\S.pdb
+E:\code\中间件\c#\聊天室\S\S\bin\Debug\S.exe
+E:\code\中间件\c#\聊天室\S\S\bin\Debug\S.pdb
+E:\code\中间件\c#\聊天室\S\S\obj\x86\Debug\ResolveAssemblyReference.cache

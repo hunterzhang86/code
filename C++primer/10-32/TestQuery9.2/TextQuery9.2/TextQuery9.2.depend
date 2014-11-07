@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1378211858 source:c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\10-32.cpp
+	"TextQuery.hpp"
+	"Query.hpp"
+	<cstdlib>
+
+1378205318 c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\textquery.hpp
+	<string>
+	<set>
+	<map>
+	<vector>
+	<cctype>
+	<iostream>
+	<fstream>
+	<cstring>
+
+1377918996 source:c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\functions.cpp
+	<fstream>
+	<string>
+
+1378205558 source:c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\textquery.cpp
+	"TextQuery.hpp"
+	<sstream>
+	<stdexcept>
+
+1378203860 c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\query.hpp
+	"TextQuery.hpp"
+	<string>
+	<iostream>
+	<set>
+	<fstream>
+
+1378205044 source:c:\documents and settings\administrator\桌面\code\c++ primer\10-32\testquery9.2\textquery9.2\query.cpp
+	"Query.hpp"
+	"TextQuery.hpp"
+	<set>
+	<algorithm>
+	<iostream>
+

@@ -1,0 +1,48 @@
+# Project: DP
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = dA.o DBN.o HiddenLayer.o LogisticRegression.o RBM.o SdA.o utils.o $(RES)
+LINKOBJ  = dA.o DBN.o HiddenLayer.o LogisticRegression.o RBM.o SdA.o utils.o $(RES)
+LIBS =  -L"lib"  
+INCS =  -I"include" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include" 
+BIN  = DP.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before DP.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "DP.exe" $(LIBS)
+
+dA.o: dA.cpp
+	$(CPP) -c dA.cpp -o dA.o $(CXXFLAGS)
+
+DBN.o: DBN.cpp
+	$(CPP) -c DBN.cpp -o DBN.o $(CXXFLAGS)
+
+HiddenLayer.o: HiddenLayer.cpp
+	$(CPP) -c HiddenLayer.cpp -o HiddenLayer.o $(CXXFLAGS)
+
+LogisticRegression.o: LogisticRegression.cpp
+	$(CPP) -c LogisticRegression.cpp -o LogisticRegression.o $(CXXFLAGS)
+
+RBM.o: RBM.cpp
+	$(CPP) -c RBM.cpp -o RBM.o $(CXXFLAGS)
+
+SdA.o: SdA.cpp
+	$(CPP) -c SdA.cpp -o SdA.o $(CXXFLAGS)
+
+utils.o: utils.cpp
+	$(CPP) -c utils.cpp -o utils.o $(CXXFLAGS)

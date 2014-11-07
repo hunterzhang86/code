@@ -1,0 +1,5 @@
+E:\code\中间件\c#\聊天室\SE\SE\obj\x86\Debug\SE.exe
+E:\code\中间件\c#\聊天室\SE\SE\obj\x86\Debug\SE.pdb
+E:\code\中间件\c#\聊天室\SE\SE\bin\Debug\SE.exe
+E:\code\中间件\c#\聊天室\SE\SE\bin\Debug\SE.pdb
+E:\code\中间件\c#\聊天室\SE\SE\obj\x86\Debug\ResolveAssemblyReference.cache

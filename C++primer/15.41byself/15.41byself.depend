@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1377918996 source:c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\functions.cpp
+	<fstream>
+	<string>
+
+1378205558 source:c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\textquery.cpp
+	"TextQuery.hpp"
+	<sstream>
+	<stdexcept>
+
+1378205318 c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\textquery.hpp
+	<string>
+	<set>
+	<map>
+	<vector>
+	<cctype>
+	<iostream>
+	<fstream>
+	<cstring>
+
+1378280812 source:c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\15.41byself.cpp
+	"TextQuery.hpp"
+	"Query.hpp"
+	<cstdlib>
+	<cstring>
+
+1378280846 c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\query.hpp
+	"TextQuery.hpp"
+	<iostream>
+	<set>
+	<string>
+	<fstream>
+
+1378274412 source:c:\documents and settings\administrator\桌面\code\c++ primer\15.41byself\query.cpp
+	"TextQuery.hpp"
+	"Query.hpp"
+	<iostream>
+	<fstream>
+	<set>
+	<string>
+	<algorithm>
+

@@ -1,0 +1,10 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\server\bin\Debug\server.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\server\bin\Debug\server.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\server\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\server\obj\x86\Debug\server.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\server\obj\x86\Debug\server.pdb
+E:\code\中间件\c#\a+b\RemoteClient\RemoteClient\bin\Debug\RemoteClient.exe
+E:\code\中间件\c#\a+b\RemoteClient\RemoteClient\bin\Debug\RemoteClient.pdb
+E:\code\中间件\c#\a+b\RemoteClient\RemoteClient\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\code\中间件\c#\a+b\RemoteClient\RemoteClient\obj\x86\Debug\RemoteClient.exe
+E:\code\中间件\c#\a+b\RemoteClient\RemoteClient\obj\x86\Debug\RemoteClient.pdb
