@@ -16,12 +16,12 @@ except:
 def delete(name):
         if info.has_key(name):
                 del info[name]
-                f=file(file_name,'w')
+                f = file(file_name,'w')
                 p.dump(info,f)
-                f.close()        
+                f.close()
                 print 'delete success!'
         else:
-                print 'Don\'t have ',name        
+                print 'Don\'t have ',name
 def insert(name,email,tel,category):
         if info.has_key(name):
                 print 'already have %s'%s
@@ -70,7 +70,7 @@ def print_all():
                 count=count+1
                 print '%15s  %24s  %12s  %10s'%(name,info[name][0],info[name][1],info[name][2])
         print '\n           have %d record'%count
-        
+
 def quit():
         print 'exit success!'
 
@@ -83,5 +83,5 @@ while flag:
                 exec(instruct)
         except:
                 print 'no this instruct or instruct form error!'
-                
+
 print 'DONE'

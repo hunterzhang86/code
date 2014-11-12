@@ -9,5 +9,4 @@ shoplistfile = 'dict_address.txt'
 # Read back from the storage
 f = file(shoplistfile)
 storedlist = p.load(f)
-print storedlist 
-
+print storedlist
