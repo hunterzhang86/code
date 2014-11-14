@@ -17,4 +17,4 @@ print "His teeth are usually %s depending on the coffee." % my_teeth
 print "If I add %d, %d, and %d I get %d." % (
     my_age, my_height, my_weight, my_age + my_height + my_weight)
 
-print round(1.7333)	//四舍五入
+print round(1.7333)
