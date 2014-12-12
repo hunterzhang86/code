@@ -13,7 +13,6 @@
 		18CE4B2C1A393E4300452545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CE4B2B1A393E4300452545 /* Images.xcassets */; };
 		18CE4B2F1A393E4300452545 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE4B2D1A393E4300452545 /* LaunchScreen.xib */; };
 		18CE4B3B1A393E4300452545 /* What_s_The_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE4B3A1A393E4300452545 /* What_s_The_WeatherTests.swift */; };
-		18CE4B471A39428100452545 /* weather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CE4B461A39428100452545 /* weather.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 		18CE4B341A393E4300452545 /* What's The WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What's The WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CE4B391A393E4300452545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18CE4B3A1A393E4300452545 /* What_s_The_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_s_The_WeatherTests.swift; sourceTree = "<group>"; };
-		18CE4B461A39428100452545 /* weather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = weather.jpg; path = ../../../../../Downloads/weather.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +80,6 @@
 				18CE4B241A393E4300452545 /* AppDelegate.swift */,
 				18CE4B261A393E4300452545 /* ViewController.swift */,
 				18CE4B281A393E4300452545 /* Main.storyboard */,
-				18CE4B461A39428100452545 /* weather.jpg */,
 				18CE4B2B1A393E4300452545 /* Images.xcassets */,
 				18CE4B2D1A393E4300452545 /* LaunchScreen.xib */,
 				18CE4B221A393E4300452545 /* Supporting Files */,
@@ -195,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CE4B471A39428100452545 /* weather.jpg in Resources */,
 				18CE4B2A1A393E4300452545 /* Main.storyboard in Resources */,
 				18CE4B2F1A393E4300452545 /* LaunchScreen.xib in Resources */,
 				18CE4B2C1A393E4300452545 /* Images.xcassets in Resources */,
@@ -409,6 +405,7 @@
 				18CE4B401A393E4300452545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CE4B411A393E4300452545 /* Build configuration list for PBXNativeTarget "What's The WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +414,7 @@
 				18CE4B431A393E4300452545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

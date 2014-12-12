@@ -13,6 +13,8 @@
 		18E362651A3AB7F10003709A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E362641A3AB7F10003709A /* Images.xcassets */; };
 		18E362681A3AB7F10003709A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E362661A3AB7F10003709A /* LaunchScreen.xib */; };
 		18E362741A3AB7F10003709A /* Learning_MapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E362731A3AB7F10003709A /* Learning_MapsTests.swift */; };
+		18E3627E1A3AB8300003709A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E3627D1A3AB8300003709A /* MapKit.framework */; };
+		18E362801A3AFDD20003709A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E3627F1A3AFDD20003709A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		18E3626D1A3AB7F10003709A /* Learning MapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Learning MapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E362721A3AB7F10003709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E362731A3AB7F10003709A /* Learning_MapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learning_MapsTests.swift; sourceTree = "<group>"; };
+		18E3627D1A3AB8300003709A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18E3627F1A3AFDD20003709A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E362801A3AFDD20003709A /* CoreLocation.framework in Frameworks */,
+				18E3627E1A3AB8300003709A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		18E3624F1A3AB7F00003709A = {
 			isa = PBXGroup;
 			children = (
+				18E3627F1A3AFDD20003709A /* CoreLocation.framework */,
+				18E3627D1A3AB8300003709A /* MapKit.framework */,
 				18E3625A1A3AB7F00003709A /* Learning Maps */,
 				18E362701A3AB7F10003709A /* Learning MapsTests */,
 				18E362591A3AB7F00003709A /* Products */,

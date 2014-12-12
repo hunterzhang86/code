@@ -13,6 +13,7 @@
 		18E362971A3B0C4E0003709A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E362961A3B0C4E0003709A /* Images.xcassets */; };
 		18E3629A1A3B0C4E0003709A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E362981A3B0C4E0003709A /* LaunchScreen.xib */; };
 		18E362A61A3B0C4E0003709A /* Where_Am_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E362A51A3B0C4E0003709A /* Where_Am_ITests.swift */; };
+		18E362B01A3B0C600003709A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E362AF1A3B0C600003709A /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		18E3629F1A3B0C4E0003709A /* Where Am ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E362A41A3B0C4E0003709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E362A51A3B0C4E0003709A /* Where_Am_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_ITests.swift; sourceTree = "<group>"; };
+		18E362AF1A3B0C600003709A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E362B01A3B0C600003709A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		18E362811A3B0C4E0003709A = {
 			isa = PBXGroup;
 			children = (
+				18E362AF1A3B0C600003709A /* CoreLocation.framework */,
 				18E3628C1A3B0C4E0003709A /* Where Am I */,
 				18E362A21A3B0C4E0003709A /* Where Am ITests */,
 				18E3628B1A3B0C4E0003709A /* Products */,

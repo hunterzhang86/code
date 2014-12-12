@@ -16,9 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weather.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HUt-Bh-ZII">
-                                <rect key="frame" x="0.0" y="20" width="320" height="568"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="请输入你想要查看天气的城市：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qac-0K-CLm">
                                 <rect key="frame" x="31" y="72" width="259" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -40,7 +37,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fg1-MT-cjl">
-                                <rect key="frame" x="31" y="213" width="259" height="215"/>
+                                <rect key="frame" x="40" y="231" width="259" height="215"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="14"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -60,7 +57,4 @@
             <point key="canvasLocation" x="462" y="400"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="weather.jpg" width="2048" height="995"/>
-    </resources>
 </document>

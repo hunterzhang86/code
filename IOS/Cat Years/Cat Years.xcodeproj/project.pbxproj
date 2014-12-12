@@ -13,7 +13,7 @@
 		186C89A11A3697AF00051DEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C89A01A3697AF00051DEE /* Images.xcassets */; };
 		186C89A41A3697AF00051DEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186C89A21A3697AF00051DEE /* LaunchScreen.xib */; };
 		186C89B01A3697AF00051DEE /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186C89AF1A3697AF00051DEE /* Cat_YearsTests.swift */; };
-		186C89BA1A3699D300051DEE /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186C89B91A3699D300051DEE /* cat.jpg */; };
+		186E56191A39A968009CBB5C /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186E56181A39A968009CBB5C /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		186C89A91A3697AF00051DEE /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C89AE1A3697AF00051DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186C89AF1A3697AF00051DEE /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
-		186C89B91A3699D300051DEE /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../../../../Pictures/cat.jpg; sourceTree = "<group>"; };
+		186E56181A39A968009CBB5C /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +79,10 @@
 		186C89961A3697AF00051DEE /* Cat Years */ = {
 			isa = PBXGroup;
 			children = (
+				186E56181A39A968009CBB5C /* cat.jpg */,
 				186C89991A3697AF00051DEE /* AppDelegate.swift */,
 				186C899B1A3697AF00051DEE /* ViewController.swift */,
 				186C899D1A3697AF00051DEE /* Main.storyboard */,
-				186C89B91A3699D300051DEE /* cat.jpg */,
 				186C89A01A3697AF00051DEE /* Images.xcassets */,
 				186C89A21A3697AF00051DEE /* LaunchScreen.xib */,
 				186C89971A3697AF00051DEE /* Supporting Files */,
@@ -197,7 +197,7 @@
 			files = (
 				186C899F1A3697AF00051DEE /* Main.storyboard in Resources */,
 				186C89A41A3697AF00051DEE /* LaunchScreen.xib in Resources */,
-				186C89BA1A3699D300051DEE /* cat.jpg in Resources */,
+				186E56191A39A968009CBB5C /* cat.jpg in Resources */,
 				186C89A11A3697AF00051DEE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +409,7 @@
 				186C89B51A3697AF00051DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		186C89B61A3697AF00051DEE /* Build configuration list for PBXNativeTarget "Cat YearsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				186C89B81A3697AF00051DEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
