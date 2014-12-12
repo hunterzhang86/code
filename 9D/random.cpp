@@ -37,5 +37,4 @@ int main()
         cout<<' '<<X<<' '<<Y<<endl;
     }
     return 0;
-
 }
