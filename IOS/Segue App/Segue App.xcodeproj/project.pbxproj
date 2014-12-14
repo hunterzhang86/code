@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FD500B1A3D29AA00605D46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD500A1A3D29AA00605D46 /* AppDelegate.swift */; };
+		18FD500D1A3D29AA00605D46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD500C1A3D29AA00605D46 /* ViewController.swift */; };
+		18FD50101A3D29AA00605D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FD500E1A3D29AA00605D46 /* Main.storyboard */; };
+		18FD50121A3D29AA00605D46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FD50111A3D29AA00605D46 /* Images.xcassets */; };
+		18FD50151A3D29AA00605D46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18FD50131A3D29AA00605D46 /* LaunchScreen.xib */; };
+		18FD50211A3D29AB00605D46 /* Segue_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD50201A3D29AB00605D46 /* Segue_AppTests.swift */; };
+		18FD502B1A3D2B3700605D46 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD502A1A3D2B3700605D46 /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FD501B1A3D29AA00605D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FD4FFD1A3D29AA00605D46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FD50041A3D29AA00605D46;
+			remoteInfo = "Segue App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FD50051A3D29AA00605D46 /* Segue App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Segue App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FD50091A3D29AA00605D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FD500A1A3D29AA00605D46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FD500C1A3D29AA00605D46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FD500F1A3D29AA00605D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FD50111A3D29AA00605D46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18FD50141A3D29AA00605D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18FD501A1A3D29AA00605D46 /* Segue AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Segue AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FD501F1A3D29AB00605D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FD50201A3D29AB00605D46 /* Segue_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segue_AppTests.swift; sourceTree = "<group>"; };
+		18FD502A1A3D2B3700605D46 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FD50021A3D29AA00605D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FD50171A3D29AA00605D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FD4FFC1A3D29AA00605D46 = {
+			isa = PBXGroup;
+			children = (
+				18FD50071A3D29AA00605D46 /* Segue App */,
+				18FD501D1A3D29AA00605D46 /* Segue AppTests */,
+				18FD50061A3D29AA00605D46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FD50061A3D29AA00605D46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FD50051A3D29AA00605D46 /* Segue App.app */,
+				18FD501A1A3D29AA00605D46 /* Segue AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FD50071A3D29AA00605D46 /* Segue App */ = {
+			isa = PBXGroup;
+			children = (
+				18FD500A1A3D29AA00605D46 /* AppDelegate.swift */,
+				18FD500C1A3D29AA00605D46 /* ViewController.swift */,
+				18FD500E1A3D29AA00605D46 /* Main.storyboard */,
+				18FD502A1A3D2B3700605D46 /* TableViewController.swift */,
+				18FD50111A3D29AA00605D46 /* Images.xcassets */,
+				18FD50131A3D29AA00605D46 /* LaunchScreen.xib */,
+				18FD50081A3D29AA00605D46 /* Supporting Files */,
+			);
+			path = "Segue App";
+			sourceTree = "<group>";
+		};
+		18FD50081A3D29AA00605D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FD50091A3D29AA00605D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FD501D1A3D29AA00605D46 /* Segue AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FD50201A3D29AB00605D46 /* Segue_AppTests.swift */,
+				18FD501E1A3D29AB00605D46 /* Supporting Files */,
+			);
+			path = "Segue AppTests";
+			sourceTree = "<group>";
+		};
+		18FD501E1A3D29AB00605D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FD501F1A3D29AB00605D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FD50041A3D29AA00605D46 /* Segue App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FD50241A3D29AB00605D46 /* Build configuration list for PBXNativeTarget "Segue App" */;
+			buildPhases = (
+				18FD50011A3D29AA00605D46 /* Sources */,
+				18FD50021A3D29AA00605D46 /* Frameworks */,
+				18FD50031A3D29AA00605D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segue App";
+			productName = "Segue App";
+			productReference = 18FD50051A3D29AA00605D46 /* Segue App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FD50191A3D29AA00605D46 /* Segue AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FD50271A3D29AB00605D46 /* Build configuration list for PBXNativeTarget "Segue AppTests" */;
+			buildPhases = (
+				18FD50161A3D29AA00605D46 /* Sources */,
+				18FD50171A3D29AA00605D46 /* Frameworks */,
+				18FD50181A3D29AA00605D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FD501C1A3D29AA00605D46 /* PBXTargetDependency */,
+			);
+			name = "Segue AppTests";
+			productName = "Segue AppTests";
+			productReference = 18FD501A1A3D29AA00605D46 /* Segue AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FD4FFD1A3D29AA00605D46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Appfish;
+				TargetAttributes = {
+					18FD50041A3D29AA00605D46 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18FD50191A3D29AA00605D46 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 18FD50041A3D29AA00605D46;
+					};
+				};
+			};
+			buildConfigurationList = 18FD50001A3D29AA00605D46 /* Build configuration list for PBXProject "Segue App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FD4FFC1A3D29AA00605D46;
+			productRefGroup = 18FD50061A3D29AA00605D46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FD50041A3D29AA00605D46 /* Segue App */,
+				18FD50191A3D29AA00605D46 /* Segue AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FD50031A3D29AA00605D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD50101A3D29AA00605D46 /* Main.storyboard in Resources */,
+				18FD50151A3D29AA00605D46 /* LaunchScreen.xib in Resources */,
+				18FD50121A3D29AA00605D46 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FD50181A3D29AA00605D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FD50011A3D29AA00605D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD500D1A3D29AA00605D46 /* ViewController.swift in Sources */,
+				18FD502B1A3D2B3700605D46 /* TableViewController.swift in Sources */,
+				18FD500B1A3D29AA00605D46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FD50161A3D29AA00605D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD50211A3D29AB00605D46 /* Segue_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FD501C1A3D29AA00605D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FD50041A3D29AA00605D46 /* Segue App */;
+			targetProxy = 18FD501B1A3D29AA00605D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FD500E1A3D29AA00605D46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FD500F1A3D29AA00605D46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FD50131A3D29AA00605D46 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FD50141A3D29AA00605D46 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FD50221A3D29AB00605D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FD50231A3D29AB00605D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FD50251A3D29AB00605D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Segue App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18FD50261A3D29AB00605D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Segue App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18FD50281A3D29AB00605D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Segue AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segue App.app/Segue App";
+			};
+			name = Debug;
+		};
+		18FD50291A3D29AB00605D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Segue AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Segue App.app/Segue App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FD50001A3D29AA00605D46 /* Build configuration list for PBXProject "Segue App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FD50221A3D29AB00605D46 /* Debug */,
+				18FD50231A3D29AB00605D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FD50241A3D29AB00605D46 /* Build configuration list for PBXNativeTarget "Segue App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FD50251A3D29AB00605D46 /* Debug */,
+				18FD50261A3D29AB00605D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18FD50271A3D29AB00605D46 /* Build configuration list for PBXNativeTarget "Segue AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FD50281A3D29AB00605D46 /* Debug */,
+				18FD50291A3D29AB00605D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FD4FFD1A3D29AA00605D46 /* Project object */;
+}
