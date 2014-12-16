@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1880BF081A3EDBD600D5840E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880BF071A3EDBD600D5840E /* MapKit.framework */; };
+		1880BF091A3EDBEC00D5840E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E362AF1A3B0C600003709A /* CoreLocation.framework */; };
+		1880BF0A1A3EDD0900D5840E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1880BF071A3EDBD600D5840E /* MapKit.framework */; };
+		1880BF0C1A3EDED000D5840E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880BF0B1A3EDED000D5840E /* TableViewController.swift */; };
 		18E362901A3B0C4E0003709A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3628F1A3B0C4E0003709A /* AppDelegate.swift */; };
 		18E362921A3B0C4E0003709A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E362911A3B0C4E0003709A /* ViewController.swift */; };
 		18E362951A3B0C4E0003709A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E362931A3B0C4E0003709A /* Main.storyboard */; };
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1880BF071A3EDBD600D5840E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1880BF0B1A3EDED000D5840E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		18E3628A1A3B0C4E0003709A /* Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E3628E1A3B0C4E0003709A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E3628F1A3B0C4E0003709A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1880BF0A1A3EDD0900D5840E /* MapKit.framework in Frameworks */,
 				18E362B01A3B0C600003709A /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1880BF091A3EDBEC00D5840E /* CoreLocation.framework in Frameworks */,
+				1880BF081A3EDBD600D5840E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +71,7 @@
 		18E362811A3B0C4E0003709A = {
 			isa = PBXGroup;
 			children = (
+				1880BF071A3EDBD600D5840E /* MapKit.framework */,
 				18E362AF1A3B0C600003709A /* CoreLocation.framework */,
 				18E3628C1A3B0C4E0003709A /* Maps */,
 				18E362A21A3B0C4E0003709A /* MapsTests */,
@@ -84,6 +94,7 @@
 				18E3628F1A3B0C4E0003709A /* AppDelegate.swift */,
 				18E362911A3B0C4E0003709A /* ViewController.swift */,
 				18E362931A3B0C4E0003709A /* Main.storyboard */,
+				1880BF0B1A3EDED000D5840E /* TableViewController.swift */,
 				18E362961A3B0C4E0003709A /* Images.xcassets */,
 				18E362981A3B0C4E0003709A /* LaunchScreen.xib */,
 				18E3628D1A3B0C4E0003709A /* Supporting Files */,
@@ -217,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E362921A3B0C4E0003709A /* ViewController.swift in Sources */,
+				1880BF0C1A3EDED000D5840E /* TableViewController.swift in Sources */,
 				18E362901A3B0C4E0003709A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,9 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
 
+    
+    @IBOutlet var myMap: MKMapView!
+    
     @IBOutlet var latitude: UILabel!
     @IBOutlet var longtitude: UILabel!
     @IBOutlet var heading: UILabel!
