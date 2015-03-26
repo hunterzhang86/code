@@ -14,7 +14,7 @@ string fileStr3 = ".txt";
 
 int main()
 {
-    freopen("flowCount.txt", "w", stdout);
+//    freopen("flowCount.txt", "w", stdout);
 
     ifstream infile;
     infile.open(fileStr1 + fileStr2 + fileStr3);
@@ -61,10 +61,15 @@ int main()
     int tmpCount = 0;
     int min = INT_MAX;
     int max = INT_MIN;
+    int sum[2] = {0, 0};
+    float mean = 0;   //平均数
+    int count = 0;
+
     for (int i = 2; i < 1682; ++i)
     {
         tmpCount ++;
-        cout << flowCount[i] << " ";
+//        cout << flowCount[i] << endl;
+        sum[1] += flowCount[i];
 
         if (flowCount[i] < min)
             min = flowCount[i];
@@ -72,15 +77,30 @@ int main()
         if (flowCount[i] > max)
             max = flowCount[i];
 
-        if (tmpCount == 120)
+        if (tmpCount == 60)
         {
             tmpCount = 0;
-            cout << endl;
+
+            sum[1] = sum[1] / 60;
+
+            if (sum[0] != 0 && sum[1] != 0)
+            {
+                cout << (float)sum[0]/sum[1] << endl;
+                mean += (float)sum[0]/sum[1];
+                count++;
+            }
+
+            //cout << sum / 60 << endl;
+
+            sum[0] = sum[1];
+            sum[1] = 0;
+            //cout << endl;
         }
     }
 
-    cout << "max: " << max << endl;
-    cout << "min: " << min;
+    cout << "平均数：" << mean/count << endl;
+//    cout << "max: " << max << endl;
+//    cout << "min: " << min;
 
     return 0;
 }
