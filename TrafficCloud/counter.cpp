@@ -8,7 +8,7 @@ using namespace std;
 int flowCount[1682];
 string line;
 string fileStr1 = "flow090";
-string fileStr2 = "1";
+string fileStr2 = "4";
 string fileStr3 = ".txt";
 
 
@@ -49,7 +49,7 @@ int main()
 
         int fileStr2Num = stoi(fileStr2) + 1;
 
-        if (fileStr2Num <= 7)
+        if (fileStr2Num <= 6)
         {
             fileStr2 = to_string(fileStr2Num);
             infile.open(fileStr1 + fileStr2 + fileStr3);
@@ -83,14 +83,14 @@ int main()
 
             sum[1] = sum[1] / 60;
 
+            cout << sum[1] << endl;
+
             if (sum[0] != 0 && sum[1] != 0)
             {
-                cout << (float)sum[0]/sum[1] << endl;
+                //cout << (float)sum[0]/sum[1] << endl;
                 mean += (float)sum[0]/sum[1];
                 count++;
             }
-
-            //cout << sum / 60 << endl;
 
             sum[0] = sum[1];
             sum[1] = 0;
@@ -98,7 +98,7 @@ int main()
         }
     }
 
-    cout << "平均数：" << mean/count << endl;
+//    cout << "平均数：" << mean/count << endl;
 //    cout << "max: " << max << endl;
 //    cout << "min: " << min;
 
